@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+  width: 500px;
+  margin-left: 400px;
+  padding-top: 100px;
+  color: white;
+}
+p {
+  text-align: center;
+  width: 500px;
+  margin-left: 400px;
+  padding-top: 50px;
+  color: aquamarine;
+}
+.nav {
+  height: 50px;
+  background: grey;
+}
+.nav > ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+}
+.nav > ul li a {
+  font-size: 30px;
+  text-decoration: none;
+  float: left;
+  color: white;
+}
+.nav > ul li a:hover {
+  color: green;
+  transform: rotate(360deg);
+}
